@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Different types of forms</title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <div>
+        <!-- product form -->
+        <div>
+            <img src="kkn.png" alt="Image">
+
+            <!-- product name : By default -->
+            <h2><u>T-Shirt</u></h2>
+
+            <!-- Give user the option choose your favourite color -->
+            <div>
+                Red: <input type="radio" name="color" value="red" id="">
+                Blue: <input type="radio" name="color" value="blue" id="">
+                Black: <input type="radio" name="color" value="Black" id="">
+            </div>
+
+            <br>
+
+            <!-- Give user the option T-Shirt size -->
+            <div>
+                <select name="" id="">
+                    <option value="">Select the size</option>
+                    <option value="">SM</option>
+                    <option value="">M</option>
+                    <option value="">XL</option>
+                    <option value="">Large</option>
+                </select>
+            </div>
+
+            <!-- Feedback Form -->
+            <div>
+                <div>
+                    Name: <input type="text" name="name" id="" placeholder="" Enter your name>
+                </div>
+
+                <br>
+
+                <div>
+                    Email: <input type="email" name="email" id="" placeholder="enter a valid Email">
+                </div>
+
+                <br>
+
+                <div>
+                    <textarea name="" id="" cols="10" rows="05"
+                        placeholder="What do your think about our product..."></textarea>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="">Do you want us to send mails?</label>
+                    <input type="checkbox" name="" id="" checked>
+                </div>
+
+                <br>
+                <button>Submit</button>
+            </div>
+            <br>
+            <!-- RailYatri Website -->
+            <!-- What data need from users : source name,destination name ,Date of travel,check availabilty -->
+    
+        <div>
+            <label for="">Enter Source:</label>
+            <input list="source_cities" placeholder="Enter source station" />
+            <datalist id="source_cities">
+                <option hidden>Select source Station</option>
+                <option>Mumbai</option>
+                <option>Delhi</option>
+                <option>Indore</option>
+                <option>chennai</option>
+                <option>Gujarat</option>
+                <option>pune</option>
+                <option>Hyderabad</option>
+                <option>Rewa</option>
+                <option>Allahabad</option>
+                <option>Satna</option>
+            </datalist>
+        </div>
+        <br>
+
+        <!-- Destination Name -->
+
+        <div>
+           <label for="">Enter Destination: </label>
+           <input list="Destination_cities" placeholder="Enter Destination station">
+           <datalist id="Destination_cities">
+            <option hidden>select source destination</option>
+            <option>Mumbai</option>
+            <option>Delhi</option>
+            <option>Indore</option>
+            <option>chennai</option>
+            <option>Gujarat</option>
+            <option>pune</option>
+            <option>Hyderabad</option>
+            <option>Rewa</option>
+            <option>Allahabad</option>
+            <option>Satna</option>
+           </datalist>
+        </div>
+        <br>
+
+        <!-- Date of travel -->
+        <div>
+            <input type="date">
+        </div>
+    </div>
+</body>
+
+</html>

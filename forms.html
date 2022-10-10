@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Enquiry Forms</h2>
+    <form>
+        <fieldset>
+            <legend>Enquiry</legend>
+            Name: <input type="text" name="name" placeholder="Enter your name">
+            <br>
+            <br>
+            Address: <textarea name="address"></textarea>
+            <br>
+            <br>
+            Gender:
+            <input type="radio" value="m" name="gender">Male
+            <input type="radio" value="F" name="gender">Female
+            <input type="radio" value="O" name="gender">Others
+            <br>
+            <br>
+            country:
+            <select name="" id="">
+                <option value="">please select your country</option>
+                <optgroup label="ASIA">
+                    <option value="">India</option>
+                    <option value="">Shri Lanka</option>
+
+                </optgroup>
+                <option value="">USA</option>
+                <option value="">China</option>
+            </select>
+            <br>
+            <br>
+            Hobbies:
+            <input type="checkbox" name="hobbies[]"> Dancing
+            <input type="checkbox" name="hobbies[]"> Singing
+            <input type="checkbox" name="hobbies[]"> swimming
+            <br>
+            <br>
+            <input type="file" name="image">
+            <br>
+            <br>
+            <input type="submit" value="send">
+            <input type="reset" value="reset">
+        </fieldset>
+    </form>
+</body>
+
+</html>
